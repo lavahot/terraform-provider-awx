@@ -3,12 +3,12 @@ layout: "awx"
 page_title: "AWX: awx_workflow_job_template_schedule"
 sidebar_current: "docs-awx-resource-workflow_job_template_schedule"
 description: |-
-  *TBD*
+  Manages a schedule for a workflow job template in AWX.
 ---
 
 # awx_workflow_job_template_schedule
 
-*TBD*
+Manages a schedule for a workflow job template in AWX. This resource allows you to define recurring schedules for workflow job templates using iCal recurrence rules (RRULE).
 
 ## Example Usage
 
@@ -25,10 +25,10 @@ resource "awx_workflow_job_template_schedule" "default" {
 
 The following arguments are supported:
 
-* `name` - (Required)
-* `rrule` - (Required)
-* `workflow_job_template_id` - (Required)
-* `description` - (Optional)
-* `inventory` - (Optional)
-* `timezone` - (Optional)
-* `extra_data` - (Optional)
+* `name` - (Required) Name of this schedule.
+* `rrule` - (Required) The iCal recurrence rule (RRULE) that defines the schedule frequency.
+* `workflow_job_template_id` - (Required) The ID of the workflow job template to schedule.
+* `description` - (Optional) Optional description of this schedule.
+* `inventory` - (Optional) The ID of the inventory to use when launching the scheduled workflow (overrides the default).
+* `timezone` - (Optional) The timezone for the schedule.
+* `extra_data` - (Optional) Extra data for the scheduled workflow in YAML format.

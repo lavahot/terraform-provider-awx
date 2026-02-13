@@ -3,12 +3,12 @@ layout: "awx"
 page_title: "AWX: awx_settings_ldap_team_map"
 sidebar_current: "docs-awx-resource-settings_ldap_team_map"
 description: |-
-  *TBD*
+  Manages an LDAP team mapping in AWX.
 ---
 
 # awx_settings_ldap_team_map
 
-*TBD*
+Manages an LDAP team mapping in AWX. LDAP team maps automatically assign users to AWX teams based on their LDAP group membership, enabling automated role-based access control.
 
 ## Example Usage
 
