@@ -29,6 +29,6 @@ data "awx_project_role" "proj_admins" {
 The following arguments are supported:
 
 * `project_id` - (Required) The ID of the project to reference for the named role
-* `id` - (Optional)
-* `name` - (Optional)
+* `id` - (Optional) The ID of the role to look up.
+* `name` - (Optional) The name of the role to look up (e.g., "Admin", "Use", "Update", "Read").
 

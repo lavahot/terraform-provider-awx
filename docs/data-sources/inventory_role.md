@@ -29,6 +29,6 @@ data "awx_inventory_role" "inv_admin_role" {
 The following arguments are supported:
 
 * `inventory_id` - (Required) ID of the inventory to reference for inventory roles
-* `id` - (Optional)
-* `name` - (Optional)
+* `id` - (Optional) The ID of the role to look up.
+* `name` - (Optional) The name of the role to look up (e.g., "Admin", "Use", "Update", "Adhoc", "Read").
 
