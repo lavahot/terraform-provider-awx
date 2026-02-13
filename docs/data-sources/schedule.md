@@ -3,12 +3,12 @@ layout: "awx"
 page_title: "AWX: awx_schedule"
 sidebar_current: "docs-awx-datasource-schedule"
 description: |-
-  *TBD*
+  Use this data source to look up a schedule in AWX by its ID or name.
 ---
 
-# awx_inventory
+# awx_schedule
 
-*TBD*
+Use this data source to look up a schedule in AWX by its ID or name.
 
 ## Example Usage
 
@@ -22,6 +22,6 @@ data "awx_schedule" "default" {
 
 The following arguments are supported:
 
-* `id` - (Optional) 
-* `name` - (Optional) 
+* `id` - (Optional) The ID of the schedule.
+* `name` - (Optional) The name of the schedule.
 

@@ -3,12 +3,12 @@ layout: "awx"
 page_title: "AWX: awx_organization"
 sidebar_current: "docs-awx-datasource-organization"
 description: |-
-  *TBD*
+  Use this data source to look up an organization in AWX by its ID or name.
 ---
 
 # awx_organization
 
-*TBD*
+Use this data source to look up an organization in AWX by its ID or name.
 
 ## Example Usage
 
@@ -22,6 +22,6 @@ data "awx_organization" "default" {
 
 The following arguments are supported:
 
-* `id` - (Optional) 
-* `name` - (Optional) 
+* `id` - (Optional) The ID of the organization.
+* `name` - (Optional) The name of the organization.
 

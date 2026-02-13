@@ -3,12 +3,12 @@ layout: "awx"
 page_title: "AWX: awx_inventory_role"
 sidebar_current: "docs-awx-datasource-inventory_role"
 description: |-
-  *TBD*
+  Use this data source to look up a role for an inventory in AWX.
 ---
 
 # awx_inventory_role
 
-*TBD*
+Use this data source to look up a role associated with an AWX inventory. This is commonly used to assign inventory-level roles (such as Admin, Use, Update, Adhoc, Read) to teams or users.
 
 ## Example Usage
 

@@ -3,12 +3,12 @@ layout: "awx"
 page_title: "AWX: awx_project_role"
 sidebar_current: "docs-awx-datasource-project_role"
 description: |-
-  *TBD*
+  Use this data source to look up a role for a project in AWX.
 ---
 
 # awx_project_role
 
-*TBD*
+Use this data source to look up a role associated with an AWX project. This is commonly used to assign project-level roles (such as Admin, Use, Update, Read) to teams or users.
 
 ## Example Usage
 
