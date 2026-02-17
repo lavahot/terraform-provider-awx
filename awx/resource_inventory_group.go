@@ -1,10 +1,13 @@
 /*
-*TBD*
+Manages an inventory group in AWX.
 
 Example Usage
 
 ```hcl
-*TBD*
+resource "awx_inventory_group" "webservers" {
+  name         = "webservers"
+  inventory_id = awx_inventory.default.id
+}
 ```
 
 */

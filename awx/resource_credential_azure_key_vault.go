@@ -1,10 +1,17 @@
 /*
-*TBD*
+Manages an Azure Key Vault credential in AWX.
 
 Example Usage
 
 ```hcl
-*TBD*
+resource "awx_credential_azure_key_vault" "example" {
+  name            = "my-azure-kv"
+  organization_id = data.awx_organization.default.id
+  url             = "https://my-vault.vault.azure.net"
+  client          = var.azure_client_id
+  secret          = var.azure_client_secret
+  tenant          = var.azure_tenant_id
+}
 ```
 
 */

@@ -1,10 +1,16 @@
 /*
-*TBD*
+Manages a Google Compute Engine credential in AWX.
 
 Example Usage
 
 ```hcl
-*TBD*
+resource "awx_credential_google_compute_engine" "example" {
+  name            = "my-gce-credential"
+  organization_id = data.awx_organization.default.id
+  username        = "my-service-account@my-project.iam.gserviceaccount.com"
+  project         = "my-gcp-project"
+  ssh_key_data    = file("~/.ssh/gce_key")
+}
 ```
 
 */

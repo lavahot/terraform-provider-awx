@@ -4,7 +4,9 @@ Use this data source to query Credential by ID.
 Example Usage
 
 ```hcl
-*TBD*
+data "awx_credential" "machine_cred" {
+  id = 1
+}
 ```
 
 */

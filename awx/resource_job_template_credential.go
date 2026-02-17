@@ -1,5 +1,5 @@
 /*
-*TBD*
+Associates a credential with a job template in AWX.
 
 Example Usage
 

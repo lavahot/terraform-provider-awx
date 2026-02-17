@@ -1,5 +1,5 @@
 /*
-*TBD*
+Associates a Galaxy credential with an AWX organization.
 
 Example Usage
 

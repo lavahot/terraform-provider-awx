@@ -1,5 +1,5 @@
 /*
-*TBD*
+Manages an organization in AWX.
 
 Example Usage
 

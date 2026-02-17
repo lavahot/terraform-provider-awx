@@ -1,10 +1,13 @@
 /*
-*TBD*
+Manages an Instance Group in AWX.
 
 Example Usage
 
 ```hcl
-*TBD*
+resource "awx_instance_group" "container_group" {
+  name               = "my-container-group"
+  is_container_group = true
+}
 ```
 
 */

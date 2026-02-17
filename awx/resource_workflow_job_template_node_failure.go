@@ -1,5 +1,5 @@
 /*
-*TBD*
+Manages a 'failure' path node in an AWX workflow job template.
 
 Example Usage
 

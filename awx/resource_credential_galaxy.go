@@ -1,10 +1,15 @@
 /*
-*TBD*
+Manages an Ansible Galaxy / Automation Hub credential in AWX.
 
 Example Usage
 
 ```hcl
-*TBD*
+resource "awx_credential_galaxy" "example" {
+  name            = "my-galaxy-credential"
+  organization_id = data.awx_organization.default.id
+  url             = "https://galaxy.ansible.com/"
+  token           = var.galaxy_token
+}
 ```
 
 */

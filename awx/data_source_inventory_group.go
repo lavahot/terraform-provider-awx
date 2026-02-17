@@ -1,5 +1,5 @@
 /*
-*TBD*
+Use this data source to look up an inventory group in AWX.
 
 Example Usage
 

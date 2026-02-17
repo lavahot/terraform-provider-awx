@@ -1,10 +1,26 @@
 /*
-*TBD*
+Manages a credential type in AWX.
 
 Example Usage
 
 ```hcl
-*TBD*
+resource "awx_credential_type" "custom_api" {
+  name = "Custom API Token"
+  kind = "cloud"
+  inputs = jsonencode({
+    fields = [{
+      id     = "api_token"
+      label  = "API Token"
+      type   = "string"
+      secret = true
+    }]
+  })
+  injectors = jsonencode({
+    extra_vars = {
+      api_token = "{{ api_token }}"
+    }
+  })
+}
 ```
 
 */

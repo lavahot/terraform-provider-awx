@@ -1,5 +1,5 @@
 /*
-*TBD*
+Manages a notification template in AWX.
 
 Example Usage
 

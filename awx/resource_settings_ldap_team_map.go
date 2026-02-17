@@ -1,5 +1,5 @@
 /*
-*TBD*
+Manages an LDAP team mapping in AWX.
 
 Example Usage
 

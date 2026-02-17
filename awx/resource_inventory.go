@@ -1,5 +1,5 @@
 /*
-*TBD*
+Manages an inventory in AWX.
 
 Example Usage
 

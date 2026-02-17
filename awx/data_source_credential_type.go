@@ -4,7 +4,9 @@ Use this data source to query Credential Type by ID.
 Example Usage
 
 ```hcl
-*TBD*
+data "awx_credential_type" "machine" {
+  id = 1
+}
 ```
 
 */

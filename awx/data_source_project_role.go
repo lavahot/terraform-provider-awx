@@ -1,5 +1,5 @@
 /*
-*TBD*
+Use this data source to look up a role for a project in AWX.
 
 Example Usage
 

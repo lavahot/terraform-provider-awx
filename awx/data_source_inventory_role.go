@@ -1,5 +1,5 @@
 /*
-*TBD*
+Use this data source to look up a role for an inventory in AWX.
 
 Example Usage
 
