@@ -1,5 +1,5 @@
 /*
-*TBD*
+Manages a host in AWX.
 
 Example Usage
 

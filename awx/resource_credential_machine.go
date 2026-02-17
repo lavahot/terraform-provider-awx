@@ -1,10 +1,15 @@
 /*
-*TBD*
+Manages a Machine credential in AWX.
 
 Example Usage
 
 ```hcl
-*TBD*
+resource "awx_credential_machine" "example" {
+  name            = "my-machine-credential"
+  organization_id = data.awx_organization.default.id
+  username        = "ansible"
+  ssh_key_data    = file("~/.ssh/id_rsa")
+}
 ```
 
 */

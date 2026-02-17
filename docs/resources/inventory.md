@@ -3,12 +3,12 @@ layout: "awx"
 page_title: "AWX: awx_inventory"
 sidebar_current: "docs-awx-resource-inventory"
 description: |-
-  *TBD*
+  Manages an inventory in AWX.
 ---
 
 # awx_inventory
 
-*TBD*
+Manages an inventory in AWX. An inventory is a collection of hosts and groups that Ansible automation can be run against.
 
 ## Example Usage
 
@@ -32,10 +32,10 @@ YAML
 
 The following arguments are supported:
 
-* `name` - (Required) 
-* `organization_id` - (Required) 
-* `description` - (Optional) 
-* `host_filter` - (Optional) 
-* `kind` - (Optional) 
-* `variables` - (Optional) 
+* `name` - (Required) Name of this inventory.
+* `organization_id` - (Required) The ID of the organization that this inventory belongs to.
+* `description` - (Optional) Optional description of this inventory.
+* `host_filter` - (Optional) Filter expression to limit hosts included in the inventory (for smart inventories).
+* `kind` - (Optional) The kind of inventory. Set to empty string for a normal inventory or "smart" for a smart inventory.
+* `variables` - (Optional) Inventory variables in YAML or JSON format.
 

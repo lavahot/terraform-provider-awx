@@ -1,5 +1,5 @@
 /*
-*TBD*
+Associates a notification template with a job template to send notifications when a job starts.
 
 Example Usage
 

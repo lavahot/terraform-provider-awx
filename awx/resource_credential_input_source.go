@@ -1,10 +1,17 @@
 /*
-*TBD*
+Manages a credential input source in AWX.
 
 Example Usage
 
 ```hcl
-*TBD*
+resource "awx_credential_input_source" "example" {
+  input_field_name = "password"
+  target           = awx_credential_machine.example.id
+  source           = awx_credential_azure_key_vault.example.id
+  metadata = {
+    secret_field = "my-secret-name"
+  }
+}
 ```
 
 */

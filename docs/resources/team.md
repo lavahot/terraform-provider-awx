@@ -3,12 +3,12 @@ layout: "awx"
 page_title: "AWX: awx_team"
 sidebar_current: "docs-awx-resource-team"
 description: |-
-  *TBD*
+  Manages a team in AWX.
 ---
 
 # awx_team
 
-*TBD*
+Manages a team in AWX. Teams are subdivisions of organizations that allow you to group users and assign them specific roles for access control.
 
 ## Example Usage
 

@@ -3,12 +3,12 @@ layout: "awx"
 page_title: "AWX: awx_notification_template"
 sidebar_current: "docs-awx-datasource-notification-template"
 description: |-
-  *TBD*
+  Use this data source to look up a notification template in AWX by its ID or name.
 ---
 
-# awx_inventory
+# awx_notification_template
 
-*TBD*
+Use this data source to look up a notification template in AWX by its ID or name.
 
 ## Example Usage
 
@@ -22,6 +22,6 @@ data "awx_notification_template" "default" {
 
 The following arguments are supported:
 
-* `id` - (Optional) 
-* `name` - (Optional) 
+* `id` - (Optional) The ID of the notification template.
+* `name` - (Optional) The name of the notification template.
 

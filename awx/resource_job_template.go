@@ -1,5 +1,5 @@
 /*
-*TBD*
+Manages a job template in AWX.
 
 Example Usage
 

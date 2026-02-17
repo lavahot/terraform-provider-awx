@@ -3,12 +3,12 @@ layout: "awx"
 page_title: "AWX: awx_host"
 sidebar_current: "docs-awx-resource-host"
 description: |-
-  *TBD*
+  Manages a host in AWX.
 ---
 
 # awx_host
 
-*TBD*
+Manages a host in an AWX inventory. Hosts represent the systems that AWX can manage and run automation against.
 
 ## Example Usage
 
@@ -33,11 +33,11 @@ YAML
 
 The following arguments are supported:
 
-* `inventory_id` - (Required) 
-* `name` - (Required) 
-* `description` - (Optional) 
-* `enabled` - (Optional) 
-* `group_ids` - (Optional) 
-* `instance_id` - (Optional) 
-* `variables` - (Optional) 
+* `inventory_id` - (Required) The ID of the inventory that this host belongs to.
+* `name` - (Required) The name or hostname of this host.
+* `description` - (Optional) Optional description of this host.
+* `enabled` - (Optional) Whether this host is enabled and can be used for job runs.
+* `group_ids` - (Optional) A list of inventory group IDs that this host belongs to.
+* `instance_id` - (Optional) The instance ID for this host (used for cloud-based inventories).
+* `variables` - (Optional) Host variables in YAML or JSON format.
 

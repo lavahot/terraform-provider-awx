@@ -1,5 +1,5 @@
 /*
-*TBD*
+Manages a schedule in AWX.
 
 Example Usage
 

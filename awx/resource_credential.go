@@ -1,10 +1,18 @@
 /*
-*TBD*
+Manages a generic credential in AWX.
 
 Example Usage
 
 ```hcl
-*TBD*
+resource "awx_credential" "example" {
+  name               = "my-credential"
+  credential_type_id = awx_credential_type.custom.id
+  organization_id    = data.awx_organization.default.id
+  inputs             = jsonencode({
+    username = "admin"
+    password = "secret"
+  })
+}
 ```
 
 */

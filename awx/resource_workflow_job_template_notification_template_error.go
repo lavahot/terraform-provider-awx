@@ -1,5 +1,5 @@
 /*
-*TBD*
+Associates a notification template with a workflow job template to send notifications on error.
 
 Example Usage
 

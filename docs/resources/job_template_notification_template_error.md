@@ -3,12 +3,12 @@ layout: "awx"
 page_title: "AWX: awx_job_template_notification_template_error"
 sidebar_current: "docs-awx-resource-job_template_notification_template_error"
 description: |-
-  *TBD*
+  Associates a notification template with a job template to send notifications on error.
 ---
 
 # awx_job_template_notification_template_error
 
-*TBD*
+Associates a notification template with a job template to send notifications on error. When a job launched from this template fails, the associated notification template will be triggered.
 
 ## Example Usage
 
@@ -23,6 +23,6 @@ resource "awx_job_template_notification_template_error" "baseconfig" {
 
 The following arguments are supported:
 
-* `notification_template_id` - (Required, ForceNew) 
-* `job_template_id` - (Required, ForceNew) 
+* `notification_template_id` - (Required, ForceNew) The ID of the notification template. Changing this forces a new resource to be created.
+* `job_template_id` - (Required, ForceNew) The ID of the job template. Changing this forces a new resource to be created.
 

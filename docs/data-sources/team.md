@@ -3,12 +3,12 @@ layout: "awx"
 page_title: "AWX: awx_team"
 sidebar_current: "docs-awx-datasource-team"
 description: |-
-  *TBD*
+  Use this data source to look up a team in AWX by its ID or name.
 ---
 
 # awx_team
 
-*TBD*
+Use this data source to look up a team in AWX by its ID or name.
 
 ## Example Usage
 
@@ -22,6 +22,6 @@ data "awx_team" "default" {
 
 The following arguments are supported:
 
-* `id` - (Optional)
-* `name` - (Optional)
+* `id` - (Optional) The ID of the team.
+* `name` - (Optional) The name of the team.
 

@@ -1,5 +1,5 @@
 /*
-*TBD*
+Manages a project in AWX.
 
 # Example Usage
 

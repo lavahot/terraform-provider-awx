@@ -1,10 +1,15 @@
 /*
-*TBD*
+Manages an SCM credential in AWX.
 
 Example Usage
 
 ```hcl
-*TBD*
+resource "awx_credential_scm" "git_ssh" {
+  name            = "my-scm-credential"
+  organization_id = data.awx_organization.default.id
+  username        = "git"
+  ssh_key_data    = file("~/.ssh/id_rsa")
+}
 ```
 
 */

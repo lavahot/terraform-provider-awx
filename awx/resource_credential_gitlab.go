@@ -1,5 +1,5 @@
 /*
-*TBD*
+Manages a GitLab personal access token credential in AWX.
 
 Example Usage
 

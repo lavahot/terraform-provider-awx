@@ -1,10 +1,19 @@
 /*
-*TBD*
+Manages an inventory source in AWX.
 
 Example Usage
 
 ```hcl
-*TBD*
+resource "awx_inventory_source" "scm_source" {
+  name              = "scm-inventory-source"
+  inventory_id      = awx_inventory.default.id
+  source            = "scm"
+  source_project_id = awx_project.inventory_project.id
+  source_path       = "inventory/hosts.yml"
+  update_on_launch  = true
+  overwrite         = true
+  overwrite_vars    = true
+}
 ```
 
 */

@@ -1,5 +1,5 @@
 /*
-*TBD*
+Manages an Execution Environment in AWX.
 
 Example Usage
 

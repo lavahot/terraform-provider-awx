@@ -1,5 +1,5 @@
 /*
-*TBD*
+Use this data source to look up a role associated with an AWX organization.
 
 Example Usage
 

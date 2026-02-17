@@ -1,10 +1,12 @@
 /*
-*TBD*
+Use this data source to look up an Azure Key Vault credential by its ID.
 
 Example Usage
 
 ```hcl
-*TBD*
+data "awx_credential_azure_key_vault" "example" {
+  credential_id = 42
+}
 ```
 
 */

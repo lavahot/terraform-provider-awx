@@ -1,5 +1,5 @@
 /*
-*TBD*
+Manages a schedule for a workflow job template in AWX.
 
 Example Usage
 

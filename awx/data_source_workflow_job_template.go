@@ -1,5 +1,5 @@
 /*
-*TBD*
+Use this data source to look up a workflow job template in AWX by its ID or name.
 
 Example Usage
 

@@ -1,5 +1,5 @@
 /*
-*TBD*
+Manages a user in AWX.
 
 Example Usage
 

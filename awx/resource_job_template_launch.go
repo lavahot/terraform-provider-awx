@@ -1,5 +1,5 @@
 /*
-*TBD*
+Launches an AWX job template.
 
 Example Usage
 

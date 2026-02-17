@@ -1,5 +1,5 @@
 /*
-*TBD*
+Manages a team in AWX.
 
 Example Usage
 
